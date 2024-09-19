@@ -52,6 +52,7 @@ nav {
     color: #fff;    
 }
 
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -298,4 +299,12 @@ h3 {
 
 p {
     font-family: "Montserrat", sans-serif;
+}
+
+.hero-image {
+    float: right;
+    width: 35%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
 }
