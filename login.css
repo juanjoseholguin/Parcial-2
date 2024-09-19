@@ -18,7 +18,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     gap: 30px;
-    flex-direction: row-reverse; /* Invierte la dirección del flexbox */
+    flex-direction: row-reverse; 
   }
   
   .login-form {
@@ -68,7 +68,7 @@ body {
   }
   
   .input-field input {
-    width: 100%;
+    width: 90%;
     padding: 15px 20px;
     border: none;
     background: #FBBF1D;
@@ -91,11 +91,11 @@ body {
     border-radius: 5px;
     font-size: 1.1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Añade una transición suave al botón */
+    transition: background-color 0.3s ease; 
   }
   
   .login-form button:hover {
-    background-color: #f09300; /* Cambia el color del botón al pasar el ratón */
+    background-color: #f09300; 
   }
   
   .login-form p {
@@ -122,20 +122,21 @@ body {
     margin: 0 10px;
     color: #fff;
     font-size: 1.5rem;
-    transition: color 0.3s ease; /* Añade una transición suave al icono */
+    transition: color 0.3s ease; 
   }
   
   .social-icons a:hover {
-    color: #f59e0b; /* Cambia el color del icono al pasar el ratón */
+    color: #f59e0b; 
   }
   
   .app-download {
     text-align: center;
     font-size: 1rem;
-    position: absolute; /* Posiciona la sección de descarga de aplicaciones */
+    position: absolute; 
     bottom: 20px;
     right: 20px;
-    width: 250px;
+    width: 255px;
+    color: #f09300;
   }
   
   .app-download p {
@@ -170,6 +171,8 @@ body {
   .social-buttons {
     display: flex;
     gap: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-button {
@@ -183,8 +186,13 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+.social-button img {
+  width: 30px;
+}
+
 .social-button:hover {
     transform: translateY(-2px);
+    align-items: center;
 }
 
 .social-button.fb:hover {
@@ -198,3 +206,21 @@ body {
 .social-button.gg:hover {
     background-color: #77c18d;
 }
+
+
+.login-form button {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  background-color: #3C506D;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.login-form button:hover {
+  background-color: #f09300; 
+}
+
